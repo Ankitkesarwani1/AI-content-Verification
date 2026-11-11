@@ -1,0 +1,35 @@
+{
+  "name": "ai-content-verification",
+  "version": "1.0.0",
+  "description": "ContentProof - Blockchain-Based AI-Generated Content Provenance and Authenticity Verification",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "node": "hardhat node",
+    "deploy": "hardhat run scripts/deploy.js --network localhost",
+    "frontend:dev": "npm run dev --prefix frontend",
+    "frontend:build": "npm run build --prefix frontend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ankitkesarwani1/AI-content-Verification.git"
+  },
+  "keywords": [
+    "blockchain",
+    "ethereum",
+    "solidity",
+    "hardhat",
+    "content-verification",
+    "sha-256",
+    "provenance",
+    "ai-content"
+  ],
+  "author": "Ankit Kesarwani",
+  "license": "MIT",
+  "type": "commonjs",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.29.1"
+  }
+}
